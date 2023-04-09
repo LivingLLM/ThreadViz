@@ -1,0 +1,49 @@
+/* Reset some default styles to ensure consistent rendering across different browsers */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Container for the timeline */
+  .timeline-container {
+    max-width: 800px; /* Adjust this to the desired width of your timeline */
+    margin: 0 auto; /* Center the timeline horizontally */
+    padding: 20px; /* Add some padding for spacing */
+  }
+  
+  /* Style for the timeline events */
+  .timeline-event {
+    position: relative;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5; /* Adjust to your desired background color */
+    border: 1px solid #ddd; /* Add a border to the events */
+    border-radius: 5px; /* Add rounded corners */
+  }
+  
+  /* Style for the sender label */
+  .timeline-event .sender {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Style for the message text */
+  .timeline-event .message {
+    color: #333; /* Adjust to your desired text color */
+  }
+  
+  /* Style for the timestamp */
+  .timeline-event .timestamp {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 12px;
+    color: #777; /* Adjust to your desired timestamp color */
+  }
+  
+  /* Add hover effect on timeline events for interactivity */
+  .timeline-event:hover {
+    background-color: #eaeaea; /* Adjust to your desired hover background color */
+  }
+  

@@ -1,0 +1,8 @@
+/* Add your custom CSS styles here */
+
+/* Example styles for the thread container */
+#threadsContainer {
+  width: 100%; /* Set the width as desired */
+  height: 400px; /* Set the height as desired */
+  margin-top: 20px; /* Add margin as desired */
+}
